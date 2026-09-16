@@ -1,0 +1,28 @@
+{
+ "ref": "051002144121A",
+ "refDisplay": "0510 02 144121A",
+ "title": "CALCULATEUR CAPTEUR ALIMENTATION",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE US94 ET BVM SAUF TOUT ALCOOL OU ESSENCE RON 95 (FLEX FUEL) OU DEPOLLUTION TECHNIQUE VEHICULE K PRIM ET BVM",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0010"
+  }
+ ]
+}

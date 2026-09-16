@@ -1,0 +1,23 @@
+{
+ "ref": "051006183095B",
+ "refDisplay": "0510 06 183095B",
+ "title": "COLLECTEUR CATALYSEUR ECHAPP AV",
+ "nature": "",
+ "applicability": "SYSTEME INJECTION DELPHI DEPUIS OPR 11193 JUSQU’A OPR 11318",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9Q",
+   "fctId": "FCT0011"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0011"
+  }
+ ]
+}

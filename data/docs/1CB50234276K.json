@@ -1,0 +1,29 @@
+{
+ "ref": "1CB50234276K",
+ "refDisplay": "1CB5 0 234 276K",
+ "title": "KIT ASSISTANCE DE FREINAGE",
+ "nature": "",
+ "applicability": "(I36A) C4 BERLINE 3PTES INJECTION TU5JP4 BVA 4 RAPPORTS",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0044"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0044"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0044"
+  }
+ ]
+}

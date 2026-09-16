@@ -1,0 +1,33 @@
+{
+ "ref": "051006236080A",
+ "refDisplay": "0510 06 236080A",
+ "title": "BOITIER EAU - THERMOCONTACT - SONDE",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 10436",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F1Z",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F1Z",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F1Z",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F1Z",
+   "fctId": "FCT0009"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "ref": "051004451246A",
+ "refDisplay": "0510 04 451246A",
+ "title": "FREINS AVANT DISQUE ETRIER PLAQUETTES",
+ "nature": "",
+ "applicability": " DEPUIS DAM 1005288 OU  DEPUIS DAM 1101877 JUSQU’A DAM 1205377 OU  DEPUIS DAM 10647UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9W",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F9W",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F9W",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0040"
+  }
+ ]
+}

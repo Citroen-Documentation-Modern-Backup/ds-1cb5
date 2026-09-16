@@ -1,0 +1,25 @@
+{
+ "ref": "B2CG01DQP0",
+ "refDisplay": "B2CG01DQP0",
+ "title": "Dépose - repose : commande de vitesses",
+ "nature": "Dépose-pose",
+ "applicability": "BVM BE4R",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FBV",
+   "fctId": "FCT0018"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FBV",
+   "fctId": "FCT0018"
+  }
+ ]
+}

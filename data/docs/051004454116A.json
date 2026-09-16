@@ -1,0 +1,38 @@
+{
+ "ref": "051004454116A",
+ "refDisplay": "0510 04 454116A",
+ "title": "BOITIER ANTIBLOCAGE CALCULATEUR",
+ "nature": "",
+ "applicability": "ABS BOSCH 8 0 ET SANS SYSTEME ESP DEPUIS DAM 1101877",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FBV",
+   "fctId": "FCT0340"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F9W",
+   "fctId": "FCT0340"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0340"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F7C",
+   "fctId": "FCT0340"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0340"
+  }
+ ]
+}

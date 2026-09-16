@@ -1,0 +1,28 @@
+{
+ "ref": "051001330145A",
+ "refDisplay": "0510 01 330145A",
+ "title": "BOITE DE VITESSES AUTOMATIQUE",
+ "nature": "",
+ "applicability": "BVA AL4 ET CP 21 X 73 DEPUIS DAM 11678UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0017"
+  }
+ ]
+}

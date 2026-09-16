@@ -1,0 +1,63 @@
+{
+ "ref": "051008980206A",
+ "refDisplay": "0510 08 980206A",
+ "title": "GARNITURE COFFRE TAPIS",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F1Z",
+   "fctId": "FCT0122"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F1Z",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ2",
+   "fctId": "FCT0122"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ2",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0122"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ3",
+   "fctId": "FCT0122"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ3",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F3N",
+   "fctId": "FCT0122"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F3N",
+   "fctId": "FCT0234"
+  }
+ ]
+}

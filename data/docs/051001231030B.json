@@ -1,0 +1,33 @@
+{
+ "ref": "051001231030B",
+ "refDisplay": "0510 01 231030B",
+ "title": "POMPE A EAU JOINT COLLECTEUR EAU",
+ "nature": "",
+ "applicability": " DEPUIS OPR 11167",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F3N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F3N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F3N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F3N",
+   "fctId": "FCT0009"
+  }
+ ]
+}

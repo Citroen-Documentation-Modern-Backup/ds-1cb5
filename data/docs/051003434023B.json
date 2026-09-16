@@ -1,0 +1,28 @@
+{
+ "ref": "051003434023B",
+ "refDisplay": "0510 03 434023B",
+ "title": "AMORTISSEURS SUSPENSION AVANT",
+ "nature": "",
+ "applicability": "SUSPENSION NORMALE DEPUIS OPR 11798",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ3",
+   "fctId": "FCT0028"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ3",
+   "fctId": "FCT0028"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ3",
+   "fctId": "FCT0028"
+  }
+ ]
+}

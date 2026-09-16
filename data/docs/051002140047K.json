@@ -1,0 +1,28 @@
+{
+ "ref": "051002140047K",
+ "refDisplay": "0510 02 140047K",
+ "title": "INJECTEURS - FAISCEAU INJECTION",
+ "nature": "",
+ "applicability": "0 A 85 ALCOOL OU ESSENCE R95-Q A/B/E (BIOFLEX)",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0010"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "ref": "051004314512A",
+ "refDisplay": "0510 04 314512A",
+ "title": "EMETTEUR RECEPTEUR EMBRAYAGE",
+ "nature": "",
+ "applicability": "CONDUITE A GAUCHE DEPUIS DAM 10647UW JUSQU’A DAM 11010UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0016"
+  }
+ ]
+}

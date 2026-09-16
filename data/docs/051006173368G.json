@@ -1,0 +1,23 @@
+{
+ "ref": "051006173368G",
+ "refDisplay": "0510 06 173368G",
+ "title": "FILTRE DECANTEUR POMPE AMORCAGE",
+ "nature": "",
+ "applicability": "CONDUITE A DROITE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ1",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ1",
+   "fctId": "FCT0010"
+  }
+ ]
+}

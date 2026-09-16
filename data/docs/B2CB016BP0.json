@@ -1,0 +1,230 @@
+{
+ "ref": "B2CB016BP0",
+ "refDisplay": "B2CB016BP0",
+ "title": "Couples de serrage : accouplement moteur-boîte de vitesses",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "BVM MA OU ML6C OU BVM BE4R OU BVM MC OU BVM BE4R",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F1Z",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAZ",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ2",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ3",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F3N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAW",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAY",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ1",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6V",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FBV",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F7C",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F1Z",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAZ",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FBV",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ2",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ3",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F3N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAW",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ1",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F1Z",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0FQ2",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F3N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F1Z",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ2",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ3",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F3N",
+   "fctId": "FCT0017"
+  }
+ ]
+}

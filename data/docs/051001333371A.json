@@ -1,0 +1,38 @@
+{
+ "ref": "051001333371A",
+ "refDisplay": "0510 01 333371A",
+ "title": "BOITIER ELECTRONIQUE",
+ "nature": "",
+ "applicability": "BVM PILOTEE 6 RAPPORTS",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0017"
+  }
+ ]
+}

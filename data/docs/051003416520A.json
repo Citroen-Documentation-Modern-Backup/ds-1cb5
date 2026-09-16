@@ -1,0 +1,23 @@
+{
+ "ref": "051003416520A",
+ "refDisplay": "0510 03 416520A",
+ "title": "INDICATEUR PERTE PRESSION DE GONFLAGE",
+ "nature": "",
+ "applicability": "INDICATEUR PERTE PRESSION GONFLAGE DEPUIS OPR 10437 JUSQU’A OPR 11318",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6W",
+   "fctId": "FCT0023"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6W",
+   "fctId": "FCT0338"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ref": "051004451250B",
+ "refDisplay": "0510 04 451250B",
+ "title": "FREINS AVANT DISQUE ETRIER PLAQUETTES",
+ "nature": "",
+ "applicability": " DEPUIS OPR 11578",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9Q",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0040"
+  }
+ ]
+}

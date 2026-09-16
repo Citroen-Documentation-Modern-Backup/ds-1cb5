@@ -1,0 +1,23 @@
+{
+ "ref": "051001002250R",
+ "refDisplay": "0510 01 002250R",
+ "title": "CACHE MOTEUR",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FBV",
+   "fctId": "FCT0049"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FBV",
+   "fctId": "FCT0049"
+  }
+ ]
+}

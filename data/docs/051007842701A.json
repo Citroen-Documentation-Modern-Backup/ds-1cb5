@@ -1,0 +1,113 @@
+{
+ "ref": "051007842701A",
+ "refDisplay": "0510 07 842701A",
+ "title": "CDE PORTE LATERALE AR BATTANTE",
+ "nature": "",
+ "applicability": " DEPUIS DAM 1005288 OU  DEPUIS DAM 10647UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F1Z",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAZ",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FBV",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ2",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ3",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F3N",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAW",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ1",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F1Z",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ2",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ3",
+   "fctId": "FCT0140"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F3N",
+   "fctId": "FCT0140"
+  }
+ ]
+}

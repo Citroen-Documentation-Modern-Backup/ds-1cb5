@@ -1,0 +1,25 @@
+{
+ "ref": "B2BG0106P0",
+ "refDisplay": "B2BG0106P0",
+ "title": "Dépose - repose : mécanisme d’embrayage",
+ "nature": "Dépose-pose",
+ "applicability": "BVM BE4R OU BVM BE4R",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F7C",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0016"
+  }
+ ]
+}

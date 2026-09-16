@@ -1,0 +1,23 @@
+{
+ "ref": "051004314534B",
+ "refDisplay": "0510 04 314534B",
+ "title": "EMETTEUR RECEPTEUR EMBRAYAGE",
+ "nature": "",
+ "applicability": "CONDUITE A GAUCHE DEPUIS OPR 10948 JUSQU’A OPR 11192",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ1",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ1",
+   "fctId": "FCT0016"
+  }
+ ]
+}

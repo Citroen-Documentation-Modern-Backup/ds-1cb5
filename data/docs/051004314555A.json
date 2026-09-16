@@ -1,0 +1,18 @@
+{
+ "ref": "051004314555A",
+ "refDisplay": "0510 04 314555A",
+ "title": "EMETTEUR RECEPTEUR EMBRAYAGE",
+ "nature": "",
+ "applicability": "CONDUITE A DROITE JUSQU’A OPR 10947",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6W",
+   "fctId": "FCT0016"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "ref": "051001334401A",
+ "refDisplay": "0510 01 334401A",
+ "title": "LIGNE SECONDAIRE BVM",
+ "nature": "",
+ "applicability": "BVM BE4 L ET CP 19 X 72 JUSQU’A DATE 20051102",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F3N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F3N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F3N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F3N",
+   "fctId": "FCT0017"
+  }
+ ]
+}

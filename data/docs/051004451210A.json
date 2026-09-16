@@ -1,0 +1,33 @@
+{
+ "ref": "051004451210A",
+ "refDisplay": "0510 04 451210A",
+ "title": "FREINS AVANT DISQUE ETRIER PLAQUETTES",
+ "nature": "",
+ "applicability": "AVEC SYSTEME ESP JUSQU’A OPR 10550",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F1Z",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F1Z",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F1Z",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F1Z",
+   "fctId": "FCT0040"
+  }
+ ]
+}

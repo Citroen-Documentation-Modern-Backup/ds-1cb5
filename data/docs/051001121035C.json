@@ -1,0 +1,23 @@
+{
+ "ref": "051001121035C",
+ "refDisplay": "0510 01 121035C",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": "BVA AL4 DEPUIS OPR 11771 JUSQU’A OPR 11802",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAY",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0005"
+  }
+ ]
+}

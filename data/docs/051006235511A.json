@@ -1,0 +1,23 @@
+{
+ "ref": "051006235511A",
+ "refDisplay": "0510 06 235511A",
+ "title": "RADIATEUR",
+ "nature": "",
+ "applicability": "BVM5 ET RADIATEUR 21,3DM2 18MBAS",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAY",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0009"
+  }
+ ]
+}

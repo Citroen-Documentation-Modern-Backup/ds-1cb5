@@ -1,0 +1,40 @@
+{
+ "ref": "B2BB16P0",
+ "refDisplay": "B2BB16P0",
+ "title": "Caractéristiques générales : embrayage ",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "BVM MC",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9W",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F9W",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0F9W",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0F9W",
+   "fctId": "FCT0016"
+  }
+ ]
+}

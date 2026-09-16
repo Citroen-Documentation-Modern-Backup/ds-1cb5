@@ -1,0 +1,25 @@
+{
+ "ref": "B1HD013YP0",
+ "refDisplay": "B1HD013YP0",
+ "title": "Contrôle : pression de suralimentation (WMI 935, 936, 8AD, 8BC)",
+ "nature": "Contrôles",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FBV",
+   "fctId": "FCT0014"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FBV",
+   "fctId": "FCT0014"
+  }
+ ]
+}

@@ -1,0 +1,1084 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">B2CB7DP0</td><td class="title">Réparation  : Boîte de vitesses manuelle pilotée type MCP</td></tr></tbody></table></div><div id="appl" class="section_appl">BVM MC</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Généralités</div></div>
+<div class="tli">En complément de ce document voir : 
+<ul>
+<li> " Synoptique du système "</li>
+<li>" Rôle et implantation "</li>
+<li>" Présentation "</li>
+<li>" Principe de fonctionnement "</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">2. Préparation véhicule neuf</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : La préparation d’un véhicule neuf nécessite la lecture et le traitement de tous les défauts éventuels. </div></div>
+<div class="cha1"><div class="sti1">3. Recommandations / précautions</div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Pour tout défaut signalé sur la boîte de vitesses manuelle pilotée, contrôler systématiquement les mémoires du calculateur d’injection. </div></div>
+<div class="cha1"><div class="sti1">4. Consignes de sécurité</div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Respecter les consignes de sécurité spécifiques à la boîte de vitesses manuelle pilotée avant/pendant toutes interventions    (se reporter à la gamme : RECOMMANDATIONS - PRÉCAUTIONS). </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Les contrôles après-vente, moteur tournant doivent être effectués avec le rapport "  N" engagé, frein de stationnement serré (sauf mention explicite dans les gammes de réparation). </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Débrancher la borne négative de la batterie avant toute intervention sur l’actionneur de pilotage. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : À chaque mise du contact le calculateur de boîte de vitesses provoque l’initialisation de l’actionneur d’embrayage. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Contact coupé ou contact mis, une action sur le sélecteur de rapport provoque le déplacement de la fourchette d’embrayage et du levier de passage de vitesses sur boîte de vitesses. </div></div>
+<div class="cha1"><div class="sti1">5. Entretien</div></div>
+<div class="par">La boîte de vitesses manuelle pilotée type MCP et l’actionneur de pilotage ne demandent aucun entretien et sont lubrifiés à vie.</div><div class="cha1"><div class="sti1">6. Remorquage</div></div>
+<div class="par">Lors de la présence d’un défaut ou d’un dysfonctionnement de la boîte de vitesses manuelle pilotée, le véhicule peut rester immobilisé avec une vitesse engagée        . Dans ce cas, il est impératif de soulever l’avant du véhicule pour le remorquer.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Le véhicule peut être poussé ou tiré seulement si la boîte de vitesses est en position neutre. </div></div>
+<div class="par">Si un rapport est engagé et "bloqué", tenter d’engager le rapport     "N" À l’aide de l’outil de diagnostic .</div><div class="par">Il n’y a pas de dispositif de déverrouillage mécanique.</div><div class="cha1"><div class="sti1">7. Description des apprentissages</div></div>
+<div class="par">Pour fonctionner le calculateur de boîte de vitesses doit mémoriser les caractéristiques de la boîte de vitesses    (actionneurs, embrayage, boîte de vitesses).</div><div class="par">La mémorisation est effectuée après une procédure d’apprentissage activée par un outil de diagnostic.</div><div class="tli">Les apprentissages permettent au calculateur de boîte de vitesses : 
+<ul>
+<li>De faire une reconnaissance des caractéristiques des pièces du système</li>
+<li>D’initialiser le système</li>
+</ul>
+</div>
+<div class="tli">Apprentissages nécessaires : 
+<ul>
+<li>Apprentissage de l’actionneur d’embrayage  ("apprentissage du point de léchage de l’embrayage" dans l’outil de diagnostic)</li>
+<li>Apprentissage de l’actionneur de pilotage ("apprentissage de la grille de boîte de vitesses" dans l’outil de diagnostic)</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Les procédures d’apprentissage sont activées à l’aide d’un outil de diagnostic. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Apprentissages non effectués     : Les opérations d’initialisation du point de léchage sont effectuées à chaque tentative de démarrage. </div></div>
+<div class="cha2"><div class="sti2">7.1. Apprentissage de l’actionneur d’embrayage </div></div>
+<div class="par">L’ apprentissage de l’actionneur d’embrayage permet au calculateur de boîte de vitesses de mémoriser la course totale de la butée d’embrayage et le point de léchage de l’embrayage.</div><div class="tli">Conditions à respecter pour effectuer l’apprentissage : 
+<ul>
+<li> moteur tournant</li>
+<li>Véhicule à l’arrêt</li>
+</ul>
+</div>
+<div class="tli">Sur ordre de l’outil de diagnostic, le calculateur provoque : 
+<ul>
+<li>L’ouverture de l’embrayage   (débrayage)</li>
+<li>La fermeture de l’embrayage (embrayage)</li>
+<li>La mémorisation du point de léchage de l’embrayage</li>
+</ul>
+</div>
+<div class="par">Durée de l’apprentissage   : Environ 11 secondes.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Un échec d’apprentissage provoque l’enregistrement d’un défaut dans la mémoire du calculateur de boîte de vitesses. </div></div>
+<div class="cha2"><div class="sti2">7.2. Apprentissage de l’actionneur de pilotage</div></div>
+<div class="tli">L’apprentissage de la grille de boîte de vitesses permet au calculateur de boîte de vitesses de mémoriser : 
+<ul>
+<li>La position de l’actionneur de pilotage sur la boîte de vitesses</li>
+<li>Les caractéristiques internes de l’actionneur de pilotage</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La commande de l’actionneur de pilotage à l’aide de l’outil de diagnostic est impossible tant que les apprentissages n’ont pas été effectués      (les commandes de pilotage des actionneurs à l’aide de l’outil de diagnostic sont ignorées). </div></div>
+<div class="tli">Conditions à respecter pour effectuer l’apprentissage : 
+<ul>
+<li>Moteur à l’arrêt</li>
+<li>Frein de stationnement desserré</li>
+<li>Véhicule à l’arrêt</li>
+</ul>
+</div>
+<div class="tli">Le calculateur de boîte de vitesses détermine : 
+<ul>
+<li>La position de chaque rapport</li>
+<li>La forme de la grille de boîte de vitesses</li>
+</ul>
+</div>
+<div class="par">Durée de l’apprentissage       : Inférieur à 1 minute.</div><div class="tli">Pour mémoriser définitivement les apprentissages il est nécessaire d’effectuer les opérations suivantes : 
+<ul>
+<li>Couper le contact</li>
+<li>Attendre   20 secondes</li>
+<li>L’outil demande ensuite une remise du contact</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Un échec d’apprentissage provoque l’enregistrement d’un défaut dans la mémoire du calculateur de boîte de vitesses. </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : En cas d’échec, il est possible de renouveler l’apprentissage de l’actionneur de pilotage de la boîte de vitesses, quelle que soit sa position une fois le BSI endormi. </div></div>
+<div class="cha1"><div class="sti1">8. Fonction des outils de diagnostic</div></div>
+<div class="cha2"><div class="sti2">8.1. Défauts mémorisés</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Défauts capteurs et actionneurs</td>
+<td colspan="1" rowspan="1">Codes défaut</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Défaut sortie électrovanne de modulation de pression      1 de passage de rapport</td>
+<td colspan="1" rowspan="1">P0926</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0929</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0927</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0924</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Défaut sortie électrovanne de modulation de pression 2 de passage de rapport</td>
+<td colspan="1" rowspan="1">P0922</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0921</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0923</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0920</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Défaut sortie électrovanne de sélection de rapport</td>
+<td colspan="1" rowspan="1">P1764</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1772</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1765</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1766</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Défaut sortie électrovanne de modulation de pression de l’embrayage</td>
+<td colspan="1" rowspan="1">P0902</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0901</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0900</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0903</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut signal régime entrée boîte de vitesses</td>
+<td colspan="1" rowspan="1">P1705</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1739</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1738</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Défaut signal de frein (contacteur/CAN)</td>
+<td colspan="1" rowspan="1">P1704</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0556</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0559</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0573</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut signal de position de l’actionneur de boîte de vitesses dans l’axe de passage de rapport</td>
+<td colspan="1" rowspan="1">P1724</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1726</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1731</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut signal de position de l’actionneur de boîte de vitesses dans l’axe de sélection de rapport</td>
+<td colspan="1" rowspan="1">P1732</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1734</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1733</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut alimentation des capteurs de position de l’actionneur de boîte de vitesses</td>
+<td colspan="1" rowspan="1">P1587</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1586</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut signal de position de l’actionneur d’embrayage - Circuit primaire</td>
+<td colspan="1" rowspan="1">P1711</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1713</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut signal de position de l’actionneur d’embrayage - Circuit secondaire</td>
+<td colspan="1" rowspan="1">P0808</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0807</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut signal de position de l’actionneur d’embrayage</td>
+<td colspan="1" rowspan="1">P1712</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut contrôle de position de l’actionneur d’embrayage</td>
+<td colspan="1" rowspan="1">P1755</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P2785</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut surchauffe embrayage</td>
+<td colspan="1" rowspan="1">P0811</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Défaut signal sélecteur de rapport</td>
+<td colspan="1" rowspan="1">P1708</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1716</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1718</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1719</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut signal commande de vitesses au volant</td>
+<td colspan="1" rowspan="1">P1752</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1750</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1837</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut signal pression d’huile</td>
+<td colspan="1" rowspan="1">P0840</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0842</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0841</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut alimentation du capteur de pression d’huile</td>
+<td colspan="1" rowspan="1">P1590</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1589</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut commande du moteur électrique du groupe électropompe</td>
+<td colspan="1" rowspan="1">P0948</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0947</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0945</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut surchauffe groupe électropompe</td>
+<td colspan="1" rowspan="1">P0943</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0942</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut déficit de pression d’huile</td>
+<td colspan="1" rowspan="1">P2712</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0868</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut accumulateur de pression d’huile déchargé</td>
+<td colspan="1" rowspan="1">P0944</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Défauts boîte de vitesses</td>
+<td colspan="1" rowspan="1">Codes défaut</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut apprentissage de boîte de vitesses incomplet ou non effectué</td>
+<td colspan="1" rowspan="1">  P1800</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut apprentissage de l’embrayageincomplet ou non effectué</td>
+<td colspan="1" rowspan="1">P0949</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut sélection de rapport</td>
+<td colspan="1" rowspan="1">P1767</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0896</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut boîte de vitesses - Le rapport ne reste pas engagé</td>
+<td colspan="1" rowspan="1">P1749</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut boîte de vitesses - Le rapport ne peut pas être désengagé</td>
+<td colspan="1" rowspan="1">P0919</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut boîte de vitesses - Le rapport ne peut pas être engagé</td>
+<td colspan="1" rowspan="1">P0925</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut rapport de transmission incorrect</td>
+<td colspan="1" rowspan="1">P1701</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut cohérence vitesse véhicule</td>
+<td colspan="1" rowspan="1">P1723</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1830</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Défauts calculateur</td>
+<td colspan="1" rowspan="1">Codes défaut</td>
+</tr><tr valign="top"><td colspan="1" rowspan="9">Défaut calculateur</td>
+<td colspan="1" rowspan="1">  P0606</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0605</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0604</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0603</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0613</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P1621</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0634</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0608</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0609</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut phase d’endormissement du calculateur (power latch) non réalisée ou non terminée</td>
+<td colspan="1" rowspan="1">P1702</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Défaut alimentation calculateur : + permanent</td>
+<td colspan="1" rowspan="1">P0561</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0563</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">P0562</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Défauts intersystème</td>
+<td colspan="1" rowspan="1">Codes défaut</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut communication avec le calculateur ABS ou le calculateur contrôle dynamique de stabilité   (ESP)</td>
+<td colspan="1" rowspan="1">U1113</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut communication avec le boîtier de servitude intelligent (BSI)</td>
+<td colspan="1" rowspan="1">U1118</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut de communication sur le réseau CAN</td>
+<td colspan="1" rowspan="1">U1003</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut de communication avec le calculateur contrôle moteur</td>
+<td colspan="1" rowspan="1">U1108</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut communication entre le calculateur de boîte de vitesses et les autres calculateurs du réseau</td>
+<td colspan="1" rowspan="1">U1000</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Défaut information émise par le calculateur ABS </td>
+<td colspan="1" rowspan="1">U1213</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">U0415</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut information émise par le calculateur moteur</td>
+<td colspan="1" rowspan="1">U1208</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut information émise par le calculateur BSI </td>
+<td colspan="1" rowspan="1">U1218</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut signal régime moteur</td>
+<td colspan="1" rowspan="1">P1832</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Défauts   RCD</td>
+<td colspan="1" rowspan="1">Codes défaut</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut réception de l’information demande de réveil principal</td>
+<td colspan="1" rowspan="1">U2000</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut incohérence entre l’état du véhicule et l’information demande de réveil principal</td>
+<td colspan="1" rowspan="1">U2003</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.2. Contextes associés aux défauts</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Le calculateur de boîte de vitesses mémorise les informations suivantes lors de l’enregistrement d’un défaut</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Informations</td>
+<td colspan="1" rowspan="1">Désignation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Tension d’alimentation du calculateur </td>
+<td colspan="1" rowspan="1"> en V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Température interne du calculateur de boîte de vitesses</td>
+<td colspan="1" rowspan="1">°C</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">État de l’embrayage</td>
+<td colspan="1" rowspan="1">Patinage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débrayé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Embrayé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Synchrone</td>
+</tr><tr valign="top"><td colspan="1" rowspan="9">Rapport de boîte de vitesses engagé</td>
+<td colspan="1" rowspan="1">Rapport 1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 5</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marche arrière </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Neutre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport engagé incertain</td>
+</tr><tr valign="top"><td colspan="1" rowspan="9">Rapport de boîte de vitesses à atteindre</td>
+<td colspan="1" rowspan="1">Rapport 1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 5</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport 6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marche arrière </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Neutre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport engagé incertain</td>
+</tr><tr valign="top"><td colspan="1" rowspan="7">État de réveil du calculateur</td>
+<td colspan="1" rowspan="1">Partiel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Transitoire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Principal</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Principal dégradé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Extinction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Initialisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Indéfini</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Changement de rapport en cours</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime moteur</td>
+<td colspan="1" rowspan="1"> tr/mn</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Température d’eau moteur</td>
+<td colspan="1" rowspan="1">°C</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vitesse véhicule </td>
+<td colspan="1" rowspan="1"> km/h</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime entrée de boîte de vitesses</td>
+<td colspan="1" rowspan="1"> tr/mn</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position pédale d’accélérateur</td>
+<td colspan="1" rowspan="1"> %</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Frein principal (filaire)</td>
+<td colspan="1" rowspan="1">Non activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="7">Position du sélecteur de rapport</td>
+<td colspan="1" rowspan="1">R</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">N</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">M</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">+</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position intermédiaire</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.3. Mesures paramètres</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Les outils de diagnostic permettent d’afficher les paramètres suivants</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Intitulés paramètres  LEXIA/PROXIA</td>
+<td colspan="1" rowspan="1">Codification LEXIA/PROXIA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">État boîte de vitesses et démarrage</td>
+<td colspan="1" rowspan="1">Paramètre 1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">État boîte de vitesses et embrayage</td>
+<td colspan="1" rowspan="1">Paramètre 2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Liaison moteur et boîte de vitesses</td>
+<td colspan="1" rowspan="1">Paramètre 3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Information moteur</td>
+<td colspan="1" rowspan="1">Paramètre 4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Valeurs apprises</td>
+<td colspan="1" rowspan="1">Paramètre 5</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">État boîte de vitesses et démarrage</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Intitulé   LEXIA/PROXIA</td>
+<td colspan="1" rowspan="1">Affichage outil LEXIA/PROXIA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Tension d’alimentation du calculateur </td>
+<td colspan="1" rowspan="1">V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Commande interdiction de démarrage (start lock)</td>
+<td colspan="1" rowspan="1">Non activée (Démarrage autorisé)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> activée (Démarrage non autorisé)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Frein principal (filaire)</td>
+<td colspan="1" rowspan="1">Non activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Frein redondant (CAN)</td>
+<td colspan="1" rowspan="1">Non activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">État de la ligne réveil commandé à distance</td>
+<td colspan="1" rowspan="1">Pas de demande de réveil du calculateur de boîte de vitesses</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Demande de réveil du calculateur de boîte de vitesses</td>
+</tr><tr valign="top"><td colspan="1" rowspan="6">État de réveil du calculateur</td>
+<td colspan="1" rowspan="1">Partiel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Transitoire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Principal</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Principal dégradé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Initialisation/extinction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Indéfini</td>
+</tr><tr valign="top"><td colspan="1" rowspan="7">Position du sélecteur de rapport</td>
+<td colspan="1" rowspan="1">R</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">N</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">M</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">+</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position intermédiaire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="9">Rapport engagé </td>
+<td colspan="1" rowspan="1">1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marche arrière </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Neutre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position intermédiaire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Mode automatique activé</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Signal pression hydraulique</td>
+<td colspan="1" rowspan="1"> bar</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">État boîte de vitesses et embrayage</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Intitulé LEXIA/PROXIA</td>
+<td colspan="1" rowspan="1">Affichage outil LEXIA/PROXIA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="9">Rapport engagé </td>
+<td colspan="1" rowspan="1">1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marche arrière </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Neutre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position intermédiaire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Consigne de position de l’actionneur de boîte de vitesses dans l’axe de sélection</td>
+<td colspan="1" rowspan="1">Degré</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position de l’actionneur de boîte de vitesses dans l’axe de sélection</td>
+<td colspan="1" rowspan="1">Degré</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Consigne de position de l’actionneur de boîte de vitesses dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position de l’actionneur de boîte de vitesses dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">État de l’embrayage</td>
+<td colspan="1" rowspan="1">Patinage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débrayé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Embrayé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Synchrone</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Consigne de position de l’actionneur d’embrayage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">POSITION DE L’ACTIONNEUR D’EMBRAYAGE</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du point de léchage de l’embrayage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Signal pression hydraulique</td>
+<td colspan="1" rowspan="1"> bar</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Liaison moteur et boîte de vitesses</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Intitulé   LEXIA/PROXIA</td>
+<td colspan="1" rowspan="1">Affichage outil LEXIA/PROXIA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">État de l’embrayage</td>
+<td colspan="1" rowspan="1">Patinage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débrayé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Embrayé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Synchrone</td>
+</tr><tr valign="top"><td colspan="1" rowspan="7">Position du sélecteur de rapport</td>
+<td colspan="1" rowspan="1">R</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">N</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">M</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">+</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position intermédiaire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Commande de vitesses sous volant de direction (+)</td>
+<td colspan="1" rowspan="1">Non activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Commande de vitesses sous volant de direction (-)</td>
+<td colspan="1" rowspan="1">Non activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime entrée de boîte de vitesses</td>
+<td colspan="1" rowspan="1"> tr/mn</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime moteur</td>
+<td colspan="1" rowspan="1"> tr/mn</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vitesse véhicule </td>
+<td colspan="1" rowspan="1"> km/h</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Enfoncement pédale d’accélérateur</td>
+<td colspan="1" rowspan="1"> %</td>
+</tr><tr valign="top"><td colspan="1" rowspan="9">Rapport engagé </td>
+<td colspan="1" rowspan="1">1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marche arrière </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Neutre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position intermédiaire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Frein principal (filaire)</td>
+<td colspan="1" rowspan="1">Non activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Frein redondant (CAN)</td>
+<td colspan="1" rowspan="1">Non activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Informations moteur</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Intitulé   LEXIA/PROXIA</td>
+<td colspan="1" rowspan="1">Affichage outil LEXIA/PROXIA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Couple moteur </td>
+<td colspan="1" rowspan="1"> Nm</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Couple moteur demandé par le conducteur</td>
+<td colspan="1" rowspan="1"> Nm</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Enfoncement pédale d’accélérateur</td>
+<td colspan="1" rowspan="1"> %</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Pied à fond  (Kick-down)</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Température d’eau moteur</td>
+<td colspan="1" rowspan="1">°C</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime moteur</td>
+<td colspan="1" rowspan="1"> tr/mn</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Valeurs d’apprentissages</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Intitulé LEXIA/PROXIA</td>
+<td colspan="1" rowspan="1">Affichage outil LEXIA/PROXIA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport de marche arrière dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du neutre dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport 1 dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport 2 dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport 3 dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport 4 dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport 5 dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du rapport 6 dans l’axe de passage</td>
+<td colspan="1" rowspan="1"> mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du neutre dans l’axe de sélection de la marche arrière</td>
+<td colspan="1" rowspan="1">Degré</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du neutre dans l’axe de sélection des rapports 1 et 2</td>
+<td colspan="1" rowspan="1">Degré</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du neutre dans l’axe de sélection des rapports 3 et 4</td>
+<td colspan="1" rowspan="1">Degré</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position apprise du neutre dans l’axe de sélection des rapports 5 et 6</td>
+<td colspan="1" rowspan="1">Degré</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.4. Autres informations mémorisées par le calculateur de boîte de vitesses</div></div>
+<div class="cha3"><div class="sti3">8.4.1. Compteurs d’utilisation</div></div>
+<div class="tli">Le calculateur de boîte de vitesses mémorise le nombre de manoeuvres des éléments suivants : 
+<ul>
+<li>Le sélecteur de rapport</li>
+<li>Les commandes au volant de direction</li>
+<li>La butée hydraulique d’embrayage </li>
+<li>L’actionneur de boîte de vitesses</li>
+</ul>
+</div>
+<div class="par">À chaque remplacement de pièce, mettre à jour les compteurs d’utilisation   ; À l’aide de l’outil de diagnostic  (voir paragraphe "échange de pièces").</div><div class="cha3"><div class="sti3">8.4.2. Compteur d’énergie d’embrayage</div></div>
+<div class="par">À chaque ouverture et fermeture de l’embrayage, le calculateur de boîte de vitesses mémorise l’énergie dissipée dans l’embrayage.</div><div class="tli">Compteurs disponibles : 
+<ul>
+<li>Compteur de cycles d’embrayage</li>
+<li>Compteur d’engagement du rapport    1</li>
+<li>Compteur d’engagement du rapport 2</li>
+<li>Compteur d’engagement du rapport 3</li>
+<li>Compteur d’engagement du rapport 4</li>
+<li>Compteur d’engagement du rapport 5</li>
+<li>Compteur d’engagement du rapport 6</li>
+<li>Compteur d’engagement de la marche arrière</li>
+<li>Compteur d’engagement du neutre</li>
+<li>Compteur du sélecteur de rapport</li>
+<li>Compteur des commandes de vitesses sous volant de direction</li>
+<li>Compteur du moteur électrique du groupe électropompe</li>
+<li>Compteur de passage du rapport 1 au rapport 2 en mode performance</li>
+<li>Compteur de passage du rapport 2 au rapport 3 en mode performance</li>
+<li>Compteur de passage du rapport 3 au rapport 4 en mode performance</li>
+<li>Compteur de passage du rapport 4 au rapport 5 en mode performance</li>
+<li>Compteur de passage du rapport 5 au rapport 6 en mode performance</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">8.5. Test des actionneurs</div></div>
+<div class="tli">Les outils de diagnostic permettent de tester : 
+<ul>
+<li>L’actionneur de pilotage</li>
+<li>L’actionneur d’embrayage </li>
+</ul>
+</div>
+<div class="cha3"><div class="sti3">8.5.1. Recommandations - précautions</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Le pilotage de boîte de vitesses nécessite la création d’efforts importants à vitesse élevée. </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Ne jamais tester les actionneurs quand ils sont déposés    (destruction de l’actionneur). </div></div>
+<div class="cha3"><div class="sti3">8.5.2. Actionneur d’embrayage</div></div>
+<div class="tli">Tests de la butée hydraulique d’embrayage : 
+<ul>
+<li>Ouverture de l’embrayage  (débrayage)</li>
+<li>Fermeture de l’embrayage (embrayage)</li>
+</ul>
+</div>
+<div class="par">L’actionneur reste dans la position demandée uniquement lorsque l’outil de diagnostic dialogue avec le calculateur de boîte de vitesses.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : À la fin du dialogue entre l’outil de diagnostic et le calculateur de boîte de vitesses, l’actionneur se place dans la position où il se trouvait avant le test. </div></div>
+<div class="cha3"><div class="sti3">8.5.3. Actionneur de pilotage</div></div>
+<div class="tli">Il est possible d’effectuer les tests suivants      ; À l’aide d’un outil de diagnostic : 
+<ul>
+<li>Engagement de chaque rapport sur demande de l’opérateur</li>
+<li>Engagement définitif du rapport "N"</li>
+</ul>
+</div>
+<div class="par">L’actionneur reste dans la position demandée uniquement lorsque l’outil de diagnostic dialogue avec le calculateur de boîte de vitesses.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : À la fin du test, l’actionneur se place dans sa position initiale     (neutre). </div></div>
+<div class="cha2"><div class="sti2">8.6. Mise en oeuvre des apprentissages ; À l’aide de l’outil de diagnostic </div></div>
+<div id="b2cp4emd_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/md/b2cp/b2cp4emd.avif" class="image" height="360" width="615" id="b2cp4emd_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b2cp4emd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/md/b2cp/b2cp4emd.avif" data-figure="1"><img id="b2cp4emd_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   A : Apprentissage du point de léchage de l’embrayage.</div><div class="par">  B : Apprentissage de l’actionneur de la grille de boîte de vitesses.</div><div class="tli">Les outils de diagnostic permettent   2 apprentissages : 
+<ul>
+<li>Apprentissage de l’actionneur d’embrayage </li>
+<li>Apprentissage de l’actionneur de pilotage</li>
+</ul>
+</div>
+<div class="par">Les échecs d’apprentissages provoquent l’enregistrement d’un défaut dans la mémoire du calculateur de boîte de vitesses.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : En cas d’échec, il est possible de répéter les procédures d’apprentissage. </div></div>
+<div class="cha3"><div class="sti3">8.6.1. Apprentissage du point de léchage de l’embrayage</div></div>
+<div class="tli">Cette séquence d’apprentissage permet d’enchaîner automatiquement les apprentissages suivants : 
+<ul>
+<li>Apprentissage des positions terminales de l’actionneur d’embrayage</li>
+<li>Apprentissage du point de léchage de l’embrayage</li>
+</ul>
+</div>
+<div class="tli">Il est nécessaire d’effectuer cet apprentissage : 
+<ul>
+<li>À chaque dépose/repose de l’actionneur d’embrayage</li>
+<li>À chaque repose d’un embrayage neuf, après l’essai routier</li>
+<li>À chaque remplacement du calculateur de boîte de vitesses</li>
+</ul>
+</div>
+<div class="tli">Conditions à respecter pour effectuer l’apprentissage : 
+<ul>
+<li>Contact mis</li>
+<li> moteur tournant</li>
+<li>Véhicule à l’arrêt sur sol horizontal</li>
+<li>Connecter l’outil de diagnostic  à la prise diagnostic du véhicule</li>
+<li>Mettre le contact</li>
+</ul>
+</div>
+<div class="tli">Sélectionner à partir des menus de l’outil de diagnostic : 
+<ul>
+<li>"DIAGNOSTIC"</li>
+<li>Sélectionner le véhicule</li>
+<li>Saisir le N° OPR du véhicule</li>
+<li>Après le test global, sélectionner   : " Boîte de vitesses manuelle pilotée  Type MCP "</li>
+</ul>
+</div>
+<div class="tli">Sélectionner à partir des menus de l’outil de diagnostic : 
+<ul>
+<li>  " Opérations spécifiques "</li>
+<li>Une opération spécifique (Du type "remplacement de calculateur")</li>
+<li>Valider, un écran d’information s’affiche</li>
+<li>Revalider, puis un menu s’affiche</li>
+<li>" Apprentissage du point de léchage de l’embrayage "</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Suivre strictement les indications fournies par l’outil de diagnostic. </div></div>
+<div class="tli">L’outil de diagnostic provoque : 
+<ul>
+<li>L’apprentissage des positions terminales     (moteur tournant)</li>
+<li>L’apprentissage du point de léchage de l’embrayage (moteur tournant)</li>
+</ul>
+</div>
+<div class="par">En cas d’échec d’apprentissage   ; Noter les informations fournies par l’outil de diagnostic (écran de compte rendu).</div><div class="tli">Pour mémoriser définitivement les apprentissages il est nécessaire d’effectuer les opérations suivantes : 
+<ul>
+<li>Couper le contact</li>
+<li>Attendre   20 secondes ; L’outil redemandera la mise du +APC</li>
+<li>Remettre le contact</li>
+</ul>
+</div>
+<div class="cha3"><div class="sti3">8.6.2. Apprentissage de la grille de boîte de vitesses</div></div>
+<div class="tli">Il est nécessaire d’effectuer cet apprentissage : 
+<ul>
+<li>À chaque dépose/repose de l’actionneur de pilotage</li>
+<li>À chaque remplacement de boîte de vitesses</li>
+<li>À chaque remplacement du calculateur de boîte de vitesses</li>
+</ul>
+</div>
+<div class="tli">Conditions à respecter pour effectuer l’apprentissage : 
+<ul>
+<li>Moteur à l’arrêt</li>
+<li>Contact mis</li>
+<li>Frein de stationnement desserré</li>
+<li>Véhicule à l’arrêt sur sol horizontal</li>
+</ul>
+</div>
+<div class="tli">À partir des menus de l’outil de diagnostic, sélectionner : 
+<ul>
+<li>"DIAGNOSTIC"</li>
+<li>Sélectionner le véhicule</li>
+<li>Saisir le N° OPR du véhicule</li>
+<li>Après le test global, sélectionner      : " Boîte de vitesses manuelle pilotée  Type MCP "</li>
+</ul>
+</div>
+<div class="tli">À partir des menus de l’outil de diagnostic, sélectionner : 
+<ul>
+<li>  " Opérations spécifiques "</li>
+<li>Une opération spécifique (Du type "remplacement de calculateur")</li>
+<li>Valider, un écran d’information s’affiche</li>
+<li>Revalider, puis un menu s’affiche</li>
+<li>" Apprentissage de la grille de boîte de vitesses "</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Suivre strictement les indications fournies par l’outil de diagnostic. </div></div>
+<div class="tli">Pour mémoriser définitivement les apprentissages il est nécessaire d’effectuer les opérations suivantes : 
+<ul>
+<li>Couper le contact</li>
+<li>Attendre     20 secondes, l’outil redemandera de remettre le +APC</li>
+<li>Remettre le contact</li>
+</ul>
+</div>
+<div class="tli">En cas d’échec d’apprentissage : 
+<ul>
+<li>Noter les informations fournies par l’outil de diagnostic   (écran de compte rendu)</li>
+<li>Le calculateur de boîte de vitesses enregistre un défaut</li>
+<li>Traiter le défaut</li>
+<li>Renouveler la procédure</li>
+</ul>
+</div>
+<div class="par">Tableau récapitulatif des opérations préliminaires et complémentaires.</div><div class="par">Toutes ces opérations sont à réaliser avec l’outil de diagnostic.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> :       1&nbsp;; 2&nbsp;; 3&nbsp;; 4&nbsp;; 5&nbsp;; 6&nbsp;; 7&nbsp; = Numéros d’ordre des opérations à effectuer. </div></div>
+<div class="cha2"><div class="sti2">8.7. Embrayage </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">  </td>
+<td colspan="1" rowspan="1"> butée d’embrayage</td>
+<td colspan="2" rowspan="1">Embrayage </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+<td colspan="1" rowspan="1">Dépose - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">2 (Une remise à zéro du compteur de cycles d’embrayage)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant remplacement)</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (après remplacement)</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">4</td>
+<td colspan="1" rowspan="1">1 (après remplacement)</td>
+<td colspan="1" rowspan="1">1 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.8. Boîte de vitesses manuelle pilotée </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose  - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">2 (Écriture des compteurs de passage des rapports)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">Non (Oui si dépose-repose butée d’embrayage)</td>
+<td colspan="1" rowspan="1">Non (Oui si dépose-repose butée)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">Non (Oui si dépose-repose butée d’embrayage)</td>
+<td colspan="1" rowspan="1">Non (Oui si dépose-repose butée)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">Non (Oui si dépose-repose butée d’embrayage)</td>
+<td colspan="1" rowspan="1">Non (Oui si dépose-repose butée)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">1 (Après repose)</td>
+<td colspan="1" rowspan="1">1 (après remplacement)</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.9. Actionneur de pilotage</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose - repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1"> 1 (Lecture de tous les compteurs avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">7 (Écriture de tous les compteurs)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">2 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">3 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">5 (Après repose)</td>
+<td colspan="1" rowspan="1">6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">4 (Après repose)</td>
+<td colspan="1" rowspan="1">5</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.10. Groupe électrohydraulique </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose  - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">1 (Lecture de tous les compteurs avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">7 (Écriture de tous les compteurs)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">2 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">3 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">6</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">5</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.11. Groupe électropompe d’actionneur </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose  - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">4 (Remise à zéro du compteur du moteur électrique)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">1 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">2 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.12. Calculateur de boîte de vitesses manuelle pilotée</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose  - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">1 (Lecture de tous les compteurs avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">7 (Écriture de tous les compteurs)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">2 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">3 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">4 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">6 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">5 (après remplacement)</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.13. Électrovannes de pilotage  - Capteur pression</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose - repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1"> 1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">1 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">2 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">3 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.14. Capteurs de position </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose - repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">1 (Après repose)</td>
+<td colspan="1" rowspan="1">1 (après remplacement)</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.15. Moteur électrique  du groupe électropompe d’actionneur </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose  - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">4 (Remise à zéro du compteur du moteur électrique)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">1 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">2 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3</td>
+<td colspan="1" rowspan="1">3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.16. Accumulateur de pression</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose  - Repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">1 (Avant remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">2 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique </td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">3 (après remplacement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.17. Réservoir hydraulique</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Opérations à effectuer</td>
+<td colspan="1" rowspan="1">Dépose - repose</td>
+<td colspan="1" rowspan="1">Remplacement</td>
+<td colspan="1" rowspan="1">Contrôle du niveau d’huile  - Mise à niveau de l’huile</td>
+<td colspan="1" rowspan="1">Remplacement de l’huile</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lecture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écriture des compteurs</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise hors pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">1 (Avant dépose)</td>
+<td colspan="1" rowspan="1">1( Avant remplacement)</td>
+<td colspan="1" rowspan="1">1 (Avant contrôle)</td>
+<td colspan="1" rowspan="1">1 (Avant remplacement huile)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mise en pression de l’actionneur de pilotage</td>
+<td colspan="1" rowspan="1">2 (Après repose)</td>
+<td colspan="1" rowspan="1">2 (après remplacement)</td>
+<td colspan="1" rowspan="1">2 (Après contrôle)</td>
+<td colspan="1" rowspan="1">2 (Après remplacement huile)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Purge de l’air dans le circuit hydraulique CSC</td>
+<td colspan="1" rowspan="1">3 (Après repose)</td>
+<td colspan="1" rowspan="1">3 (après remplacement)</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">3 (Après remplacement huile)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage du point de léchage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Apprentissage de la grille de boîte de vitesses manuelle pilotée</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+<div class="tli">Les procédures suivantes nécessitent l’emploi des outils de diagnostic : 
+<ul>
+<li>Apprentissage du point de léchage de l’embrayage</li>
+<li>Apprentissage de la grille de boîte de vitesses</li>
+<li>Lecture et écriture des compteurs d’utilisation</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">9. Embrayage  - Mécanisme d’embrayage</div></div>
+<div class="par">La boîte de vitesses pilotée est mise au point avec l’embrayage d’origine.</div><div class="par">La monte d’un embrayage d’une autre marque, ou possédant d’autres caractéristiques se traduit par un dysfonctionnement du système.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Toujours remonter un embrayage correspondant au montage d’origine. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Ne jamais monter un mécanisme d’embrayage ayant subi une chute. </div></div>
+<div class="cha1"><div class="sti1">10. Téléchargement du programme du calculateur</div></div>
+<div class="par">L’actualisation du logiciel du calculateur s’effectue par téléchargement         (calculateur équipé d’une flash EPROM).</div><div class="par">Cette opération s’effectue au moyen des outils de diagnostic.</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : À chaque mise à jour par téléchargement du calculateur de la boîte de vitesses manuelle pilotée, vérifier si le nouveau soft moteur est disponible (et réciproquement). </div></div>
+<div class="cha1"><div class="sti1">11. Échange du calculateur</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Ne jamais intervertir deux calculateurs de boîte de vitesses entre deux véhicules     . Le cas échéant, procéder pour chaque calculateur à la totalité des apprentissages (apprentissage de la butée hydraulique d’embrayage et apprentissage de l’actionneur de pilotage) pour chaque véhicule. </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Le non-respect de cette consigne entraîne un dysfonctionnement de la boîte de vitesses voire la destruction des actionneurs. </div></div>
+<div class="cha1"><div class="sti1">12. Télécodage d’un calculateur neuf</div></div>
+<div class="par">Il n’y a pas de télécodage à effectuer.</div><div class="cha1"><div class="sti1">13. Essai routier</div></div>
+<div class="par">Effectuer un essai routier pour valider la réparation et, si il y a lieu, adapter les paramètres du calculateur boîte de vitesses.</div><div class="tli">Lors de l’essai routier : 
+<ul>
+<li>Balayer tous les rapports</li>
+<li>Tester tous les modes       (Mode "automatique" et mode "impulsionnel")</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">14. Procédures de retour en garantie</div></div>
+<div class="tli">Avant retour vers le centre d’expertise, placer les éléments suivants dans un sac plastique et dans leur emballage d’origine : 
+<ul>
+<li>Butée hydraulique d’embrayage</li>
+<li>Actionneur de pilotage de boîte de vitesses </li>
+<li>Calculateur de boîte de vitesses</li>
+<li> électrovannes</li>
+<li>Faisceau électrique </li>
+<li>Accumulateur</li>
+<li>Réservoir d’huile </li>
+<li>Moteur électropompe </li>
+<li>Capteur de pression </li>
+<li>Capteur de vitesses d’entrée de boîte de vitesses </li>
+</ul>
+</div>
+<div class="par">Tout incident lié à la boîte de vitesses manuelle pilotée type   MCP doit faire l’objet, sans délai, d’un compte rendu d’incident (CRI) dans le cadre d’AGIR.</div></div>

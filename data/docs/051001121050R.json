@@ -1,0 +1,23 @@
+{
+ "ref": "051001121050R",
+ "refDisplay": "0510 01 121050R",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 13453",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FBV",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FBV",
+   "fctId": "FCT0005"
+  }
+ ]
+}

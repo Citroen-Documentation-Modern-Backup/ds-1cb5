@@ -1,0 +1,23 @@
+{
+ "ref": "051003434208L",
+ "refDisplay": "0510 03 434208L",
+ "title": "BARRES TORSION AVANT RESSORT",
+ "nature": "",
+ "applicability": "SUSPENSION RENFORCEE AV ET AR",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAY",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0027"
+  }
+ ]
+}

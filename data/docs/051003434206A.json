@@ -1,0 +1,28 @@
+{
+ "ref": "051003434206A",
+ "refDisplay": "0510 03 434206A",
+ "title": "BARRES TORSION AVANT RESSORT",
+ "nature": "",
+ "applicability": "SUSPENSION RENFORCEE AV ET AR DEPUIS DAM 1138888 OU  DEPUIS DAM 10647UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0027"
+  }
+ ]
+}

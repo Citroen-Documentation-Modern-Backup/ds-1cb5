@@ -1,0 +1,33 @@
+{
+ "ref": "051002140060H",
+ "refDisplay": "0510 02 140060H",
+ "title": "INJECTEURS - FAISCEAU INJECTION",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE EURO 4",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FQ2",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ2",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAE&B0F=B0FQ2",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DAD&B0F=B0FQ2",
+   "fctId": "FCT0010"
+  }
+ ]
+}

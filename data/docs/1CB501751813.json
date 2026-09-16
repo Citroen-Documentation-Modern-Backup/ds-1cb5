@@ -1,0 +1,24 @@
+{
+ "ref": "1CB501751813",
+ "refDisplay": "1CB5 0 175 1813",
+ "title": "MOTEUR DE POMPE ACTIONNEUR BVMP",
+ "nature": "",
+ "applicability": "(I3DP) C4 BERLINE 3PTES DIESEL TURBO DV6TED4 FAP BVM PILOTEE 6 RAPPORTS",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9W",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0017"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ref": "051006182334A",
+ "refDisplay": "0510 06 182334A",
+ "title": "ECRANS THERMIQUE D’ECHAPPEMENT",
+ "nature": "",
+ "applicability": " DEPUIS DAM 1140377",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0011"
+  }
+ ]
+}

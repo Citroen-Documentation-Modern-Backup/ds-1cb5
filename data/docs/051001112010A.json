@@ -1,0 +1,28 @@
+{
+ "ref": "051001112010A",
+ "refDisplay": "0510 01 112010A",
+ "title": "CULASSE - COUVRE CULASSE",
+ "nature": "",
+ "applicability": " DEPUIS DAM 1101277 OU  DEPUIS DAM 1005288 SAUF TOUT ALCOOL OU ESSENCE RON 95 (FLEX FUEL) SAUF 0 A 85 ALCOOL OU ESSENCE R95-Q A/B/E (BIOFLEX)",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0006"
+  }
+ ]
+}

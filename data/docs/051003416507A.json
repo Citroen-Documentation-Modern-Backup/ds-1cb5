@@ -1,0 +1,33 @@
+{
+ "ref": "051003416507A",
+ "refDisplay": "0510 03 416507A",
+ "title": "INDICATEUR PERTE PRESSION DE GONFLAGE",
+ "nature": "",
+ "applicability": "INDICATEUR PERTE PRESSION GONFLAGE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAY",
+   "fctId": "FCT0023"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAY",
+   "fctId": "FCT0338"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0023"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAY",
+   "fctId": "FCT0338"
+  }
+ ]
+}

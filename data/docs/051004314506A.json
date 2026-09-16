@@ -1,0 +1,28 @@
+{
+ "ref": "051004314506A",
+ "refDisplay": "0510 04 314506A",
+ "title": "EMETTEUR RECEPTEUR EMBRAYAGE",
+ "nature": "",
+ "applicability": "BVM BE4R ET CONDUITE A GAUCHE JUSQU’A OPR 10947 OU BVM BE4R ET CONDUITE A GAUCHE JUSQU’A OPR 10947",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0016"
+  }
+ ]
+}

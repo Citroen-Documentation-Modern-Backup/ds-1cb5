@@ -1,0 +1,28 @@
+{
+ "ref": "051006235520A",
+ "refDisplay": "0510 06 235520A",
+ "title": "RADIATEUR",
+ "nature": "",
+ "applicability": " DEPUIS DAM 10654UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0009"
+  }
+ ]
+}

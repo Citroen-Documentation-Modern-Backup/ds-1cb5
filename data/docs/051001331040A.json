@@ -1,0 +1,23 @@
+{
+ "ref": "051001331040A",
+ "refDisplay": "0510 01 331040A",
+ "title": "CARTER EMBRAYAGE BVM",
+ "nature": "",
+ "applicability": "ML6C JUSQU’A OPR 10342",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  }
+ ]
+}

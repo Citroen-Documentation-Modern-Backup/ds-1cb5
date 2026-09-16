@@ -1,0 +1,28 @@
+{
+ "ref": "051001335609B",
+ "refDisplay": "0510 01 335609B",
+ "title": "COMMANDE VITESSES",
+ "nature": "",
+ "applicability": "BVM BE4R DEPUIS OPR 11319",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0018"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0018"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0018"
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "ldp": "1CB5",
+ "label": "C4",
+ "selectors": [
+  {
+   "id": "B0D",
+   "order": 0,
+   "title": "Silhouette",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0DA3",
+     "lib": "BERLINE 3PTES"
+    },
+    {
+     "val": "B0DA4",
+     "lib": "BERLINE 4PTES"
+    },
+    {
+     "val": "B0DA5",
+     "lib": "BERLINE 5PTES"
+    },
+    {
+     "val": "B0DAE",
+     "lib": "BERLINE ENTREPRISE 3PTES"
+    },
+    {
+     "val": "B0DAD",
+     "lib": "BERLINE ENTREPRISE 5 PORTES"
+    }
+   ],
+   "optional": false
+  },
+  {
+   "id": "B0F",
+   "order": 1,
+   "title": "Moteur",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0F1Z",
+     "lib": "1.4 i 16v 90"
+    },
+    {
+     "val": "B0FAZ",
+     "lib": "1.4 i VVT 16v 95"
+    },
+    {
+     "val": "B0FBV",
+     "lib": "1.6 HDi (DV6C M)"
+    },
+    {
+     "val": "B0FQ2",
+     "lib": "1.6 HDi 110"
+    },
+    {
+     "val": "B0F9W",
+     "lib": "1.6 HDi 110 FAP (DV6TED4)"
+    },
+    {
+     "val": "B0FQ3",
+     "lib": "1.6 HDi 90 FAP"
+    },
+    {
+     "val": "B0F3N",
+     "lib": "1.6 HDi 92 (DV6ATED4)"
+    },
+    {
+     "val": "B0FAW",
+     "lib": "1.6 THP 16v 150"
+    },
+    {
+     "val": "B0FAY",
+     "lib": "1.6 VTi 16v 120 (EP6)"
+    },
+    {
+     "val": "B0F6S",
+     "lib": "1.6 i 16v 110 (TU5JP4)"
+    },
+    {
+     "val": "B0F7C",
+     "lib": "2.0 HDi 110 (DW10ATED)"
+    },
+    {
+     "val": "B0FQ1",
+     "lib": "2.0 HDi 138"
+    },
+    {
+     "val": "B0F9Q",
+     "lib": "2.0 HDi 138 FAP"
+    },
+    {
+     "val": "B0FAT",
+     "lib": "2.0 i 16v 143"
+    },
+    {
+     "val": "B0F6W",
+     "lib": "2.0 i 16v 180"
+    },
+    {
+     "val": "B0F6V",
+     "lib": "2.0i 16v 138"
+    }
+   ],
+   "optional": false
+  }
+ ],
+ "optional": [],
+ "variants": [
+  {
+   "key": "B0D=B0DA3&B0F=B0F1Z",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F1Z"
+   },
+   "label": "BERLINE 3PTES · 1.4 i 16v 90"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FAZ",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FAZ"
+   },
+   "label": "BERLINE 3PTES · 1.4 i VVT 16v 95"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FQ2"
+   },
+   "label": "BERLINE 3PTES · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE 3PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FQ3",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FQ3"
+   },
+   "label": "BERLINE 3PTES · 1.6 HDi 90 FAP"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F3N",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F3N"
+   },
+   "label": "BERLINE 3PTES · 1.6 HDi 92 (DV6ATED4)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FAW",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FAW"
+   },
+   "label": "BERLINE 3PTES · 1.6 THP 16v 150"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FAY",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FAY"
+   },
+   "label": "BERLINE 3PTES · 1.6 VTi 16v 120 (EP6)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F6S",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F6S"
+   },
+   "label": "BERLINE 3PTES · 1.6 i 16v 110 (TU5JP4)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FQ1",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FQ1"
+   },
+   "label": "BERLINE 3PTES · 2.0 HDi 138"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F9Q"
+   },
+   "label": "BERLINE 3PTES · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0FAT"
+   },
+   "label": "BERLINE 3PTES · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F6W",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F6W"
+   },
+   "label": "BERLINE 3PTES · 2.0 i 16v 180"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F6V",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F6V"
+   },
+   "label": "BERLINE 3PTES · 2.0i 16v 138"
+  },
+  {
+   "key": "B0D=B0DA4&B0F=B0FBV",
+   "selections": {
+    "B0D": "B0DA4",
+    "B0F": "B0FBV"
+   },
+   "label": "BERLINE 4PTES · 1.6 HDi (DV6C M)"
+  },
+  {
+   "key": "B0D=B0DA4&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DA4",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE 4PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DA4&B0F=B0F6S",
+   "selections": {
+    "B0D": "B0DA4",
+    "B0F": "B0F6S"
+   },
+   "label": "BERLINE 4PTES · 1.6 i 16v 110 (TU5JP4)"
+  },
+  {
+   "key": "B0D=B0DA4&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DA4",
+    "B0F": "B0F7C"
+   },
+   "label": "BERLINE 4PTES · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DA4&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DA4",
+    "B0F": "B0FAT"
+   },
+   "label": "BERLINE 4PTES · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F1Z",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F1Z"
+   },
+   "label": "BERLINE 5PTES · 1.4 i 16v 90"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FAZ",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FAZ"
+   },
+   "label": "BERLINE 5PTES · 1.4 i VVT 16v 95"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FBV",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FBV"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi (DV6C M)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FQ2"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FQ3",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FQ3"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi 90 FAP"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F3N",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F3N"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi 92 (DV6ATED4)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FAW",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FAW"
+   },
+   "label": "BERLINE 5PTES · 1.6 THP 16v 150"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FAY",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FAY"
+   },
+   "label": "BERLINE 5PTES · 1.6 VTi 16v 120 (EP6)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6S",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6S"
+   },
+   "label": "BERLINE 5PTES · 1.6 i 16v 110 (TU5JP4)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F7C"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FQ1",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FQ1"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 138"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F9Q"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FAT"
+   },
+   "label": "BERLINE 5PTES · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6V",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6V"
+   },
+   "label": "BERLINE 5PTES · 2.0i 16v 138"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F1Z",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F1Z"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.4 i 16v 90"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0FQ2"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F3N",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F3N"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.6 HDi 92 (DV6ATED4)"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F1Z",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F1Z"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.4 i 16v 90"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0FQ2"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0FQ3",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0FQ3"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.6 HDi 90 FAP"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F3N",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F3N"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.6 HDi 92 (DV6ATED4)"
+  }
+ ]
+}

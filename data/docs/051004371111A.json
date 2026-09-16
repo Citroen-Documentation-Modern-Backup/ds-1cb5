@@ -1,0 +1,18 @@
+{
+ "ref": "051004371111A",
+ "refDisplay": "0510 04 371111A",
+ "title": "TRANSMISSION TRANSVERSALE",
+ "nature": "",
+ "applicability": "BVM BE4R OU BVM BE4R",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6W",
+   "fctId": "FCT0022"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ref": "051006184834A",
+ "refDisplay": "0510 06 184834A",
+ "title": "ECHAPPEMENT INTERMEDIAIRE ET AR",
+ "nature": "",
+ "applicability": " DEPUIS DAM 1140377",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0011"
+  }
+ ]
+}

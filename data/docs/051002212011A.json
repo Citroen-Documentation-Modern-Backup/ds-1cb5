@@ -1,0 +1,28 @@
+{
+ "ref": "051002212011A",
+ "refDisplay": "0510 02 212011A",
+ "title": "BOUGIES - MODULE - BOBINE ALLUMAGE",
+ "nature": "",
+ "applicability": "TOUT ALCOOL OU ESSENCE RON 95 (FLEX FUEL)",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0013"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0013"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0013"
+  }
+ ]
+}

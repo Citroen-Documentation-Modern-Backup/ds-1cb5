@@ -1,0 +1,28 @@
+{
+ "ref": "051004453513A",
+ "refDisplay": "0510 04 453513A",
+ "title": "MAITRE CYLINDRE RESERVOIR",
+ "nature": "",
+ "applicability": " DEPUIS DAM 1101277 JUSQU’A DAM 1134677 OU  DEPUIS DAM 10647UW JUSQU’A DAM 11241UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0045"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0045"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0045"
+  }
+ ]
+}

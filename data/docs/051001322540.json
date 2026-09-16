@@ -1,0 +1,28 @@
+{
+ "ref": "051001322540",
+ "refDisplay": "0510 01 322540",
+ "title": "CONVERTISSEUR",
+ "nature": "",
+ "applicability": "BVA AL4",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0016"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "ref": "B2CB4XP0",
+ "refDisplay": "B2CB4XP0",
+ "title": "Caractéristiques : commande boîte de vitesses mécanique ML6C",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "BVM6",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F9Q",
+   "fctId": "FCT0018"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0018"
+  }
+ ]
+}

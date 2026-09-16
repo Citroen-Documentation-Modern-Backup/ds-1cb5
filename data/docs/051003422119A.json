@@ -1,0 +1,28 @@
+{
+ "ref": "051003422119A",
+ "refDisplay": "0510 03 422119A",
+ "title": "TRAVERSES SUSP AR BARRES RESSORT",
+ "nature": "",
+ "applicability": "SUSPENSION RENFORCEE AV ET AR DEPUIS DAM 10647UW",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0031"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0031"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0031"
+  }
+ ]
+}

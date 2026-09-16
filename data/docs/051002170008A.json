@@ -1,0 +1,28 @@
+{
+ "ref": "051002170008A",
+ "refDisplay": "0510 02 170008A",
+ "title": "FILTRE AIR RACCORD RESONATEUR AIR",
+ "nature": "",
+ "applicability": "FILTRATION POUSSIERE ADMISSION AIR STD DEPUIS DAM 1101277 OU  DEPUIS DAM 1005288 OU FILTRATION POUSSIERE ADMISSION AIR AMELIORE (EAU) DEPUIS DAM 1005288 OU  DEPUIS DAM 1101277",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0F6S",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0010"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "ref": "051001333345D",
+ "refDisplay": "0510 01 333345D",
+ "title": "BOITIER ELECTRONIQUE",
+ "nature": "",
+ "applicability": "BVA AT8 ET CP 20 X 73",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA3&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA4&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CB5",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0017"
+  }
+ ]
+}
